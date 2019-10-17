@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <comment>Log NeedIt Task closure</comment>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Handle Overdue NeedIt Tasks">5dd0e075dbe000106eb86f77489619d7</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-17 20:22:40</sys_created_on>
+        <sys_id>91d02475dbe000106eb86f7748961920</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt Spoke" source="x_415985_needit_sp">a1670cf1dba000106eb86f7748961974</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">a1670cf1dba000106eb86f7748961974</sys_scope>
+        <sys_update_name>sys_hub_action_instance_91d02475dbe000106eb86f7748961920</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-17 20:22:40</sys_updated_on>
+        <ui_id>5850cb3a-ff39-4b2a-8788-4ee5a0f8a8a5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=91d02475dbe000106eb86f7748961920"/>
+    <sys_element_mapping action="delete_multiple" query="id=91d02475dbe000106eb86f7748961920"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>91d02475dbe000106eb86f7748961920</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-17 20:22:40</sys_created_on>
+        <sys_id>6dd02475dbe000106eb86f7748961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-17 20:22:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>{{subflow.reason}}</value>
+    </sys_element_mapping>
+</record_update>

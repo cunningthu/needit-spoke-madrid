@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get the value of an application property</description>
+        <internal_name>get_property</internal_name>
+        <label_cache>[{"name":"{{action.property}}","label":"action➛Property","type":"action","ref":""},{"name":"{{step[d43f5822-924d-4faf-9999-6c45f43f8efc].p}}","label":"step➛Look up Application Property➛p","type":"step","ref":""},{"name":"{{step[d43f5822-924d-4faf-9999-6c45f43f8efc].pr}}","label":"step➛Look up Application Property➛pr","type":"step","ref":""},{"name":"{{step[d43f5822-924d-4faf-9999-6c45f43f8efc].pro}}","label":"step➛Look up Application Property➛pro","type":"step","ref":""},{"name":"{{step[d43f5822-924d-4faf-9999-6c45f43f8efc].prop}}","label":"step➛Look up Application Property➛prop","type":"step","ref":""},{"name":"{{step[d43f5822-924d-4faf-9999-6c45f43f8efc].prope}}","label":"step➛Look up Application Property➛prope","type":"step","ref":""},{"name":"{{step[d43f5822-924d-4faf-9999-6c45f43f8efc].proper}}","label":"step➛Look up Application Property➛proper","type":"step","ref":""},{"name":"{{step[d43f5822-924d-4faf-9999-6c45f43f8efc].propert}}","label":"step➛Look up Application Property➛propert","type":"step","ref":""},{"name":"{{step[d43f5822-924d-4faf-9999-6c45f43f8efc].property}}","label":"step➛Look up Application Property➛property","type":"step","ref":""},{"name":"{{step[d43f5822-924d-4faf-9999-6c45f43f8efc].property_}}","label":"step➛Look up Application Property➛property_","type":"step","ref":""},{"name":"{{step[d43f5822-924d-4faf-9999-6c45f43f8efc].property_v}}","label":"step➛Look up Application Property➛property_v","type":"step","ref":""},{"name":"{{step[d43f5822-924d-4faf-9999-6c45f43f8efc].property_va}}","label":"step➛Look up Application Property➛property_va","type":"step","ref":""},{"name":"{{step[d43f5822-924d-4faf-9999-6c45f43f8efc].property_val}}","label":"step➛Look up Application Property➛property_val","type":"step","ref":""},{"name":"{{step[d43f5822-924d-4faf-9999-6c45f43f8efc].property_valu}}","label":"step➛Look up Application Property➛property_valu","type":"step","ref":""},{"name":"{{step[d43f5822-924d-4faf-9999-6c45f43f8efc].property_value}}","label":"step➛Look up Application Property➛property_value","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>e0fa8cf5dba000106eb86f7748961989</latest_snapshot>
+        <master_snapshot>b4fa8cf5dba000106eb86f77489619d5</master_snapshot>
+        <name>Get Property</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-17 18:32:51</sys_created_on>
+        <sys_id>70b788f1dba000106eb86f77489619ff</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Get Property</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_415985_needit_sp">a1670cf1dba000106eb86f7748961974</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">a1670cf1dba000106eb86f7748961974</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_70b788f1dba000106eb86f77489619ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-17 18:47:04</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=70b788f1dba000106eb86f77489619ff"/>
+    <sys_variable_value action="delete_multiple" query="document_key=70b788f1dba000106eb86f77489619ff"/>
+    <sys_element_mapping action="delete_multiple" query="id=70b788f1dba000106eb86f77489619ff"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>property_value</field>
+        <id>70b788f1dba000106eb86f77489619ff</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-17 18:45:14</sys_created_on>
+        <sys_id>de8a48f5dba000106eb86f77489619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-17 18:45:14</sys_updated_on>
+        <table>var__m_sys_hub_action_output_70b788f1dba000106eb86f77489619ff</table>
+        <value>{{step[d43f5822-924d-4faf-9999-6c45f43f8efc].property_value}}</value>
+    </sys_element_mapping>
+</record_update>
